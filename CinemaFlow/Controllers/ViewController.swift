@@ -24,10 +24,10 @@ class ViewController: UIViewController, ChooseTimeDelegate {
         configureUI()
         getData()
         tableViewSets()
-        navigationController?.isNavigationBarHidden = true
     }
     
     private func configureUI() {
+        navigationController?.isNavigationBarHidden = true
         cinemaField.layer.cornerRadius = 11
         cinemaChooseButton.layer.cornerRadius = 11
     }
@@ -81,8 +81,10 @@ extension ViewController: UITableViewDataSource, UITableViewDelegate {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: MovieCell.id, for: indexPath)
         guard let movieCell = cell as? MovieCell else { return cell }
+        
         movieCell.set(movie: movieArray[indexPath.row])
         movieCell.delegate = self
+        
         return movieCell
     }
     
@@ -94,8 +96,7 @@ extension ViewController: UITableViewDataSource, UITableViewDelegate {
         let rotationTransform = CATransform3DTranslate(CATransform3DIdentity, 50, 10, 0)
         cell.layer.transform = rotationTransform
         cell.alpha = 0
-        UIView.animate(withDuration: 0.5) { [weak self] in
-            guard let self else { return }
+        UIView.animate(withDuration: 0.5) {
             cell.layer.transform = CATransform3DIdentity
             cell.alpha = 1.0
         }

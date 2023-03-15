@@ -139,7 +139,6 @@ class MovieController: UIViewController {
     //        activityVc.excludedActivityTypes = [.airDrop, .addToReadingList, .message, .assignToContact]
             present(activityVc, animated: true)
             activityVc.view.backgroundColor = UIColor(red: 0.075, green: 0.059, blue: 0.129, alpha: 1)
-
         }
     }
     
@@ -153,7 +152,6 @@ extension MovieController: WKNavigationDelegate {
             webView.load(URLRequest(url: url))
         }
     }
-    
 }
 
 
