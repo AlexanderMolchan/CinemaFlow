@@ -13,7 +13,6 @@
 		40A7B14C29872BD2000C4E9E /* CinemaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A7B14B29872BD2000C4E9E /* CinemaModel.swift */; };
 		40A7B14F2987738F000C4E9E /* CustomSegment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A7B14E2987738F000C4E9E /* CustomSegment.swift */; };
 		40A7B15429877CC3000C4E9E /* FeedbacksController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A7B15329877CC3000C4E9E /* FeedbacksController.swift */; };
-		40A7B15729879FC3000C4E9E /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 40A7B15629879FC3000C4E9E /* SnapKit */; };
 		40A7B15929879FDF000C4E9E /* OverviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A7B15829879FDF000C4E9E /* OverviewController.swift */; };
 		40CB56192984514300A069C6 /* CinemaListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40CB56182984514300A069C6 /* CinemaListController.swift */; };
 		40CB561D2984524400A069C6 /* CinemaChooseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40CB561B2984524400A069C6 /* CinemaChooseCell.swift */; };
@@ -60,7 +59,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				40A7B15729879FC3000C4E9E /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -191,7 +189,6 @@
 			);
 			name = CinemaFlow;
 			packageProductDependencies = (
-				40A7B15629879FC3000C4E9E /* SnapKit */,
 			);
 			productName = CinemaFlow;
 			productReference = 40CBE75A2982E1840086864F /* CinemaFlow.app */;
@@ -223,7 +220,6 @@
 			);
 			mainGroup = 40CBE7512982E1840086864F;
 			packageReferences = (
-				40A7B15529879FC3000C4E9E /* XCRemoteSwiftPackageReference "SnapKit" */,
 			);
 			productRefGroup = 40CBE75B2982E1840086864F /* Products */;
 			projectDirPath = "";
@@ -491,25 +487,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		40A7B15529879FC3000C4E9E /* XCRemoteSwiftPackageReference "SnapKit" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/SnapKit/SnapKit";
-			requirement = {
-				branch = develop;
-				kind = branch;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		40A7B15629879FC3000C4E9E /* SnapKit */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 40A7B15529879FC3000C4E9E /* XCRemoteSwiftPackageReference "SnapKit" */;
-			productName = SnapKit;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 40CBE7522982E1840086864F /* Project object */;
 }
