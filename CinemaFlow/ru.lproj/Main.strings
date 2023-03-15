@@ -1,0 +1,84 @@
+
+/* Class = "UILabel"; text = "9.3"; ObjectID = "0XD-sf-akq"; */
+"0XD-sf-akq.text" = "9.3";
+
+/* Class = "UILabel"; text = "1.3 Km"; ObjectID = "5Rw-2r-Rly"; */
+"5Rw-2r-Rly.text" = "1.3 Km";
+
+/* Class = "UIButton"; configuration.title = "Ok"; ObjectID = "7lP-CY-L9g"; */
+"7lP-CY-L9g.configuration.title" = "Ok";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "7lP-CY-L9g"; */
+"7lP-CY-L9g.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "B75-gP-eBJ"; */
+"B75-gP-eBJ.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "CaM-lI-Tlo"; */
+"CaM-lI-Tlo.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "As I walk through the valley of the shadow of death\nI take a look at my life and realize there’s nothing left\nCause I’ve been blasting and laughing so long that\nEven my momma thinks that my mind is gone\nBut I ain’t never crossed a man that didn’t deserve it\nMe be treated like a punk, you know that’s unheard of\nYou better watch how you talking, and where you walking\nOr you and your homies might be lined in chalk\nI really hate to trip but I gotta lob\nAs they croak I see myself in the pistol smoke … fool\nI’m the kinda G that little homies want to be like\nOn my knees in the night, saying prayers in the street light\n\nWe’ve been spending most our lives living in the gangsta’s paradise\nWe’ve been spending most our lives living in the gangsta’s paradise\nWe keep spending most our lives living in the gangsta’s paradise\nWe keep spending most our lives living in the gangsta’s paradise"; ObjectID = "CiU-jv-ZK9"; */
+"CiU-jv-ZK9.text" = "As I walk through the valley of the shadow of death\nI take a look at my life and realize there’s nothing left\nCause I’ve been blasting and laughing so long that\nEven my momma thinks that my mind is gone\nBut I ain’t never crossed a man that didn’t deserve it\nMe be treated like a punk, you know that’s unheard of\nYou better watch how you talking, and where you walking\nOr you and your homies might be lined in chalk\nI really hate to trip but I gotta lob\nAs they croak I see myself in the pistol smoke … fool\nI’m the kinda G that little homies want to be like\nOn my knees in the night, saying prayers in the street light\n\nWe’ve been spending most our lives living in the gangsta’s paradise\nWe’ve been spending most our lives living in the gangsta’s paradise\nWe keep spending most our lives living in the gangsta’s paradise\nWe keep spending most our lives living in the gangsta’s paradise";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "DNR-f9-hi0"; */
+"DNR-f9-hi0.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "DXh-c0-vVn"; */
+"DXh-c0-vVn.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "EMJ-FS-yZb"; */
+"EMJ-FS-yZb.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "FILMIX"; ObjectID = "F0Y-Gf-sY5"; */
+"F0Y-Gf-sY5.text" = "FILMIX";
+
+/* Class = "UILabel"; text = "STORYLINE"; ObjectID = "FF1-Do-KNo"; */
+"FF1-Do-KNo.text" = "STORYLINE";
+
+/* Class = "UILabel"; text = "rating IMDb"; ObjectID = "Fgm-eI-JYI"; */
+"Fgm-eI-JYI.text" = "rating IMDb";
+
+/* Class = "UILabel"; text = "rating of our users"; ObjectID = "HgV-WK-mLS"; */
+"HgV-WK-mLS.text" = "rating of our users";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "IKJ-jN-Sgs"; */
+"IKJ-jN-Sgs.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Write Your Opinion..."; ObjectID = "J1b-3U-2cu"; */
+"J1b-3U-2cu.text" = "Write Your Opinion...";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Oqx-Ma-5HI"; */
+"Oqx-Ma-5HI.text" = "Label";
+
+/* Class = "UILabel"; text = "Screen Cinema"; ObjectID = "SDt-d9-N9g"; */
+"SDt-d9-N9g.text" = "Screen Cinema";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Vvf-6X-BPQ"; */
+"Vvf-6X-BPQ.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Select cinema"; ObjectID = "di9-HQ-u8E"; */
+"di9-HQ-u8E.text" = "Select cinema";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "fYc-rR-lc5"; */
+"fYc-rR-lc5.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "hua-tw-HtB"; */
+"hua-tw-HtB.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "7,7"; ObjectID = "kDB-ra-I3M"; */
+"kDB-ra-I3M.text" = "7,7";
+
+/* Class = "UILabel"; text = "Please Rate This Movie"; ObjectID = "m45-Dw-F4Q"; */
+"m45-Dw-F4Q.text" = "Please Rate This Movie";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "na9-D7-pPt"; */
+"na9-D7-pPt.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "pO3-Qr-7ux"; */
+"pO3-Qr-7ux.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Choose seats"; ObjectID = "zJN-qo-cd1"; */
+"zJN-qo-cd1.configuration.title" = "Choose seats";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "zJN-qo-cd1"; */
+"zJN-qo-cd1.normalTitle" = "Button";

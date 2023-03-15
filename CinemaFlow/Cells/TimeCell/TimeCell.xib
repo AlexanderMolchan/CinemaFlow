@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="TimeCell" customModule="CinemaFlow" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="356" height="127"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="356" height="127"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="09.10" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tmi-h2-1fQ">
+                        <rect key="frame" x="10.999999999999996" y="13" width="43.666666666666657" height="14"/>
+                        <fontDescription key="fontDescription" name="HiraginoSans-W6" family="Hiragino Sans" pointSize="14"/>
+                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2D" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l3V-LF-oig">
+                        <rect key="frame" x="58.000000000000007" y="13" width="12.333333333333336" height="8"/>
+                        <fontDescription key="fontDescription" name="HiraginoSans-W6" family="Hiragino Sans" pointSize="8"/>
+                        <color key="textColor" red="0.26666666666666666" green="0.18823529411764706" blue="0.63137254901960782" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PjQ-5f-24T">
+                        <rect key="frame" x="320.66666666666669" y="25" width="40.333333333333314" height="77"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <state key="normal" title="Button"/>
+                        <buttonConfiguration key="configuration" style="plain" imagePlacement="trailing" cornerStyle="small">
+                            <imageReference key="image" image="chevron.right" catalog="system" symbolScale="large" variableValue="1"/>
+                            <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="16" scale="large" weight="heavy"/>
+                        </buttonConfiguration>
+                    </button>
+                    <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.40000000000000002" translatesAutoresizingMaskIntoConstraints="NO" id="tnL-tg-4oV">
+                        <rect key="frame" x="11" y="42" width="314.66666666666669" height="4"/>
+                        <color key="tintColor" red="0.2666666667" green="0.18823529410000001" blue="0.63137254899999995" alpha="1" colorSpace="calibratedRGB"/>
+                    </progressView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="room fullness" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RFJ-Z6-zXh">
+                        <rect key="frame" x="10.999999999999996" y="51" width="60.666666666666657" height="9"/>
+                        <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="9"/>
+                        <color key="textColor" red="0.2666666667" green="0.18823529410000001" blue="0.63137254899999995" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="41%" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ktd-YM-Rev">
+                        <rect key="frame" x="304.33333333333331" y="51" width="21.333333333333314" height="9"/>
+                        <fontDescription key="fontDescription" name="HiraginoSans-W6" family="Hiragino Sans" pointSize="9"/>
+                        <color key="textColor" red="0.2666666667" green="0.18823529410000001" blue="0.63137254899999995" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="tnL-tg-4oV" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="11" id="0Le-vp-a77"/>
+                <constraint firstAttribute="bottom" secondItem="PjQ-5f-24T" secondAttribute="bottom" constant="25" id="9i4-xq-38z"/>
+                <constraint firstItem="RFJ-Z6-zXh" firstAttribute="top" secondItem="tnL-tg-4oV" secondAttribute="bottom" constant="5" id="GiF-Sl-4Uq"/>
+                <constraint firstItem="l3V-LF-oig" firstAttribute="leading" secondItem="Tmi-h2-1fQ" secondAttribute="trailing" constant="3.2999999999999998" id="Js2-Ys-96m"/>
+                <constraint firstItem="ktd-YM-Rev" firstAttribute="centerY" secondItem="RFJ-Z6-zXh" secondAttribute="centerY" id="Oia-Ac-ro2"/>
+                <constraint firstItem="PjQ-5f-24T" firstAttribute="leading" secondItem="tnL-tg-4oV" secondAttribute="trailing" constant="-5" id="QyX-ID-nZe"/>
+                <constraint firstItem="PjQ-5f-24T" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="25" id="Vka-Og-VRS"/>
+                <constraint firstItem="Tmi-h2-1fQ" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="13" id="bFP-bG-zDT"/>
+                <constraint firstAttribute="trailing" secondItem="PjQ-5f-24T" secondAttribute="trailing" constant="-5" id="dKv-OM-GX0"/>
+                <constraint firstItem="l3V-LF-oig" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="13" id="gXD-d4-hro"/>
+                <constraint firstItem="Tmi-h2-1fQ" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="11" id="hqJ-84-Uqw"/>
+                <constraint firstItem="tnL-tg-4oV" firstAttribute="top" secondItem="Tmi-h2-1fQ" secondAttribute="bottom" constant="15" id="nAX-Fp-gID"/>
+                <constraint firstItem="RFJ-Z6-zXh" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="11" id="qPA-G6-3rF"/>
+                <constraint firstItem="PjQ-5f-24T" firstAttribute="leading" secondItem="ktd-YM-Rev" secondAttribute="trailing" constant="-5" id="yQB-Mh-86l"/>
+            </constraints>
+            <size key="customSize" width="356" height="248"/>
+            <connections>
+                <outlet property="cellLabel" destination="Tmi-h2-1fQ" id="D0k-Bw-kZF"/>
+            </connections>
+            <point key="canvasLocation" x="287.02290076335879" y="44.718309859154935"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="chevron.right" catalog="system" width="97" height="128"/>
+    </resources>
+</document>
