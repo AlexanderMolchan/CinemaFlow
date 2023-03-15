@@ -23,14 +23,19 @@ class MovieCell: UITableViewCell {
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        selectionStyle = .none
-        self.backgroundColor = UIColor.clear
-        cellImage.layer.cornerRadius = 8
-        collectionViewConfigurate()
+        cellConfigurate()
     }
     
     override func prepareForReuse() {
         super.prepareForReuse()
+    }
+    
+    private func cellConfigurate() {
+        super.awakeFromNib()
+        selectionStyle = .none
+        self.backgroundColor = UIColor.clear
+        cellImage.layer.cornerRadius = 8
+        collectionViewConfigurate()
     }
     
     private func collectionViewConfigurate() {
@@ -103,14 +108,15 @@ class MovieCell: UITableViewCell {
 extension MovieCell: UICollectionViewDataSource, UICollectionViewDelegate {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         timeArray.count
-        
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: TimeCell.id, for: indexPath)
         guard let timeCell = cell as? TimeCell else { return cell }
+        
         timeCell.set(time: timeArray[indexPath.row])
         timeCell.delegate = delegate
+        
         return timeCell
     }
     
